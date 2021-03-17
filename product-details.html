@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./image/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <title>Products-details</title>
+</head>
+<body>
+    <div class="banner">
+        <header>
+            <div class="shop">
+                <h1><a href="index.html" style="text-decoration: none;"><i class="fa fa-shopping-cart" aria-hidden="true"></i><span class="title-color">JELANI</span></a></h1>
+            </div>
+            <div class="search_my">
+                <form action="">
+                    <input type="search" type="search1" placeholder="search">
+                    <button class="button5" type="submit"><i class="fa fa-search"></i></button>
+                </form>
+            </div>
+            <div class="clearfix"></div>
+        </header>
+        <div class="zip">
+          <form>
+            <label>zip code</label><input type="text" class="zipcode" placeholder="zip code" title="zip code" pattern="^\s*?\d{5}(?:[-\s]\d{4}?\s*?$">
+            <button class="button3" type="submit">Go</button>
+          </form>
+        </div>
+        <div class="nav1">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid"> 
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav m-auto">
+                        <li class="nav-item">
+                          <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#About">About</a>
+                        </li>
+                        <div class="dropdown">
+                          <li class="nav-item">
+                            <a class="nav-link" href="#featured menu">Food Menu <i class="fa fa-caret-down"></i>
+                              <div class="dropdown-content">
+                                <a href="#pizza">Pizza</a>&nbsp;
+                                <a href="#burger">Hamburger</a>&nbsp;
+                                <a href="#kebab">Kebab</a>&nbsp;
+                                <a href="#fries">Fries</a>&nbsp;
+                              </div>
+                            </a>
+                          </li>
+                        </div>
+                        <li class="nav-item">
+                          <a class="nav-link" href="products.html">Menu List</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#Contact">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="Signup.html">Signup</a>
+                        </li>
+                    </ul>
+                  </div>
+                  <a href="cart.html"><img src="./image/shopping-cart.png" width="30px" height="30px"></a>
+                </div>
+            </nav>
+        </div><br/>
+    </div>
+
+    <div class="small-container" id="featured menu">
+
+      <h4 class="title">Food details</h4>
+      <div class="food-menu">
+        <div class="food-menu">
+          <div class="row">
+            <div class="col-4" id="pizza">
+              <img src="./image/pizza.jpg" width="350px" height="250px" alt="Pizza">
+              <h4>Pizza</h4>
+              <p>Ksh 300.00</p><br/>
+              <input type="number" value="1">
+              <button>Add to cart</button>
+              <h3>Product details <i class="fa fa-indent"></i></h3>
+              <p>Pizza made with love from our best top chefs. Make your order now!.</p>
+            </div>
+          </div>
+        </div>  
+          
+        <div class="small-container">
+          <div class="row">
+            <div class="col-4" id="kebab">
+              <img src="./image/kebab.jpg" width="350px" height="250px" alt="kebab">
+              <h4>Kebab</h4>
+              <p>Ksh 100.00</p><br/>
+              <input type="number" value="1">
+              <button>Add to cart</button>
+              <h3>Product details <i class="fa fa-indent"></i></h3>
+              <p>Kebab made with love from our best top chefs. Make your order now!.</p>
+            </div>
+          </div>
+        </div> 
+    
+        <div class="small-container">
+          <div class="row">
+            <div class="col-4" id="burger">
+              <img src="./image/Burger.jpg" width="350px" height="250px" alt="Burger">
+              <h4>Burger</h4>
+              <p>Ksh 100.00</p><br/>
+              <input type="number" value="1">
+              <button>Add to cart</button>
+              <h3>Product details <i class="fa fa-indent"></i></h3>
+              <p>Burger made with love from our best top chefs. Make your order now!.</p>
+            </div>
+          </div>
+        </div> 
+    
+        <div class="small-container">
+          <div class="row">
+            <div class="col-4" id="fries">
+              <img src="./image/fries.jpg" width="350px" height="250px" alt="fries">
+              <h4>Fries</h4>
+              <p>Ksh 150.00</p><br/>
+              <input type="number" value="1">
+              <button>Add to cart</button>
+              <h3>Product details <i class="fa fa-indent"></i></h3>
+              <p>Fries made with love from our best top chefs. Make your order now!.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 three_clo">
+            <h4>Newsletter</h4>
+            <p>Subscribe to our Newsletter and never miss an update from us.</p>
+            <form action="">
+              <input type="email" placeholder="">
+              <button class="btn1">
+                <i class="fa fa-envelope-open"></i>
+              </button>
+            </form>
+          </div><hr/>
+          <div class="col-md-4 copyright">
+            <p>&copy;copyright calton, &trade; All Rights Reseved</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+</body>
+</html>
