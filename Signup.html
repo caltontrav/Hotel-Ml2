@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./image/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <title>JELANI</title>
+</head>
+<body>
+    <div class="banner">
+        <header>
+            <div class="shop">
+                <h1><a href="index.html" style="text-decoration: none;"><i class="fa fa-shopping-cart" aria-hidden="true"></i><span class="title-color">JELANI</span></a></h1>
+            </div>
+            <div class="search_my">
+                <form action="">
+                    <input type="search" type="search1" placeholder="search">
+                    <button class="button5" type="submit"><i class="fa fa-search"></i></button>
+                </form>
+            </div>
+            <div class="clearfix"></div>
+        </header>
+        <div class="zip">
+          <form>
+            <label>zip code</label><input type="text" class="zipcode" placeholder="zip code" title="zip code" pattern="^\s*?\d{5}(?:[-\s]\d{4}?\s*?$">
+            <button class="button3" type="submit">Go</button>
+          </form>
+        </div>
+        <div class="nav1">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid"> 
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav m-auto">
+                        <li class="nav-item">
+                          <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#About">About</a>
+                        </li>
+                        
+                        <li class="nav-item">
+                          <a class="nav-link" href="#Contact">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="Signup.html">Signup</a>
+                        </li>
+                    </ul>
+                  </div>
+                  <a href="cart.html"><img src="./image/shopping-cart.png" width="30px" height="30px"></a>
+                </div>
+            </nav>
+        </div><br/>
+
+        <div class="container">
+          <div class="signup-popup" id="Signup">
+              <form action="/action_page.php">
+                <h1>Signup</h1>
+                <label for="">Fill in the form to create an account</label><br/>
+                <label for="">Enter Username  :<input type="text" placeholder="name" name="name" required=""></label><br/>
+                <label for="">Enter Email     :<input type="email" placeholder="email" name="email" required=""></label><br/>
+                <label for="">Enter Password  :<input type="password" placeholder="password" name="password" required=""></label><br/>
+                <label for="">Confirm Password:<input type="password" placeholder="confirm password" name="Confirm password" required=""></label><br/>
+                <label for="">Enter Phone     :<input type="phone" placeholder="phone" name="phone" required=""></label><br/>
+                <label for=""><input type="checkbox" > By creating an account you agree to our <a href="#">Terms & Privacy</a></label><br/>
+                <button type="submit" class="btn2">Signup</button>
+                <button type="button" class="btn3 cancel">cancel</button>
+              </form>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="about" id="About">
+              <h1>About Us</h1>
+              <h3>What we are</h3>
+              <p>We are the best selling and trending company overall in Africa .we provide best foods to our customers , not forgetting delicious</p>
+              <div class="row">
+                  <div class="col-md-4 crl1 about_grid">
+                      <i class="fa fa-heart" aria-hidden="true"></i>
+                      <h4>Hospitality</h4>
+                      <p>Interms of hospitality , the county government has awarded us more certificates.</p><button type="button" class="more-bttn" data-toggle="modal" data-target="#examplemodal">read more</button>
+                  </div>
+                  <div class="col-md-4 crl2 about_grid">
+                      <i class="fa fa-cutlery" aria-hidden="true"></i>
+                      <h4>Cusine</h4>
+                      <p>Our cusine are well prepared by our highly learned chefs ,experienced in all different types of cusines</p><button type="button" class="more-bttn" data-toggle="modal" data-target="#examplemodal">read more</button>
+                  </div>
+                  <div class="col-md-4 crl3 about_grid">
+                      <i class="fa fa-users" aria-hidden="true"></i>
+                      <h4>Management</h4>
+                      <p>The hotel management is very stable and each employee is well trained on how to serve all the customers.</p><button type="button" class="more-bttn" data-toggle="modal" data-target="#examplemodal">read more</button>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="inform" id="Contact">
+        <div class="container">
+          <h1>Contact us</h1>
+          <div class="inform_form">
+            <form action="#" method="POST">
+              <div class="row">
+                <div class="col-sm-4 col-md-4 form-left">
+                  <input type="text" placeholder="Name" name="name" required="">
+                </div>
+                <div class="col-sm-4 col-md-4 form-left">
+                  <input type="email" placeholder="email" name="email" required="">
+                </div>
+                <div class="col-sm-4 col-md-4 form-left">
+                  <input type="phone" placeholder="phone" name="phone" required="">
+                </div>
+              </div>
+              <textarea name="message" placeholder="message" required="" cols="30" rows="10"></textarea>
+              <input type="submit" value="submit">
+            </form>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4 three_clo">
+              <h4>Newsletter</h4>
+              <p>Subscribe to our Newsletter and never miss an update from us.</p>
+              <form action="">
+                <input type="email" placeholder="">
+                <button class="btn1">
+                  <i class="fa fa-envelope-open"></i>
+                </button>
+              </form>
+            </div><hr/>
+            <div class="col-md-4 copyright">
+              <p>&copy;copyright calton, &trade; All Rights Reseved</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+</body>
+</html>
